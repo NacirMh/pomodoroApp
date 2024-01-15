@@ -73,4 +73,17 @@
         app:layout_constraintTop_toBottomOf="@+id/taketxt"
 
         />
+    <android.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@android:color/transparent"
+
+        />
 </androidx.constraintlayout.widget.ConstraintLayout>
